@@ -1,0 +1,4 @@
+# output "azs" {
+#     value = k
+  
+# }
