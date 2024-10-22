@@ -1,3 +1,4 @@
+
 resource "aws_vpc" "main" {
   cidr_block       = var.vpc_cidr
   instance_tenancy = "default"
@@ -72,6 +73,8 @@ resource "aws_subnet" "database" { # first name is public[0], second name is pub
     }
   )
 }
+
+
 
 
 resource "aws_db_subnet_group" "default" {
